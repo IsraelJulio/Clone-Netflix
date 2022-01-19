@@ -14,3 +14,13 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+
+// const fi = () => { 
+//     const url = `http://www.omdbapi.com/?t=marvel`
+//     fetch(url)
+//         .then(response.json())
+//         .then(filme => {
+//             console.log(filme)
+//     })
+// }

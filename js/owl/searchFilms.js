@@ -9,10 +9,9 @@ function buscarFilmes(filme){
 		console.log(filmePesquisado);
 
 		for (var i = 0; i < filmePesquisado.length; i++) {
-			mostraFilmes += '<div class="col-md-4">';
+			
 			mostraFilmes += '<img class="box-filme" src="https://image.tmdb.org/t/p/w300/'+filmePesquisado[i].poster_path+'">';
-			mostraFilmes += '<br/><br/>';			
-			mostraFilmes += '</div>';
+			
 
 
 			console.log(filmePesquisado[i].title);			

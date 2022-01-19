@@ -111,7 +111,7 @@ header nav a:hover{
     display: block;
     cursor: pointer;
     margin-top:5px;
-
+    opacity: 0.4;
 }
 .box-filme:hover{
     -webkit-transform: scale(1.03);
@@ -119,7 +119,7 @@ header nav a:hover{
     transform: scale(1.03);
     box-shadow: inset 0 0 0 25px var(--vermelho);
     transition-delay: 0.1s;
- 
+ opacity: 1;
   
 }
 

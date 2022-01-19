@@ -28,8 +28,9 @@ header .container{
 header .logo{
     margin-left: 5px;
     color: var(--vermelho);
-    font-family: 'Arial Black', Times;
+    font-family: 'Bebas Neue', cursive;
     font-size:40px;
+    letter-spacing: .4rem;
 }
 
 header nav a{
@@ -62,6 +63,9 @@ header nav a:hover{
 .filme-principal .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
+    text-shadow:  rgba(0, 0, 0) 1.5px 1.2px;
+   font-family: arial, helvetica, sans-serif;
+   
 }
 
 

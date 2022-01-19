@@ -22,5 +22,11 @@ function buscarFilmes(filme){
 		
 	}).catch(function (error){
 		console.log(error);
-	}).finally(console.log(mostraFilmes));
+	}).finally(function(){
+		let Allfilmes = document.getElementsByClassName("box-filme");
+    	for (let i = 9; i < Allfilmes.length; i++){
+        Allfilmes[i].style.display = "none";
+        console.log(Allfilmes[i])
+    	}
+	});
 }

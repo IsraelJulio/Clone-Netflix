@@ -7,6 +7,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+   
 }
 
 /*elementos base*/
@@ -49,7 +50,7 @@ header nav a:hover{
     font-size:16px;
     
 
-    height:400px;
+    height:500px;
     background-size:cover;
  
 
@@ -112,6 +113,7 @@ header nav a:hover{
     cursor: pointer;
     margin-top:5px;
     opacity: 0.4;
+    overflow:hidden;
 }
 .box-filme:hover{
     -webkit-transform: scale(1.03);
@@ -127,20 +129,47 @@ header nav a:hover{
  display: flex;
     
 }
-.next{
+.botoes-nav{
     display: flex;
+    justify-content: space-between;
+}
+.next{
+    display: flex; 
     align-items: center;
     justify-content: flex-end;
 }
-.botao.avancar{
-
-    margin:0;
-    position: absolute;
-    margin-top:-450px;
-
+.back{
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start;
     
 }
+.botao.avancar{
+    margin:0;
+    position: absolute;
+    margin-top:-300px;    
+}
+.botao.avancar:hover{
+    background-color:rgba(255, 255, 255, 0.459);
 
+}
+
+.botao.voltar{
+    display: flex; 
+    margin:0;
+    position: absolute;
+    margin-top:-300px;    
+}
+.botao.voltar:hover{
+    background-color:rgba(255, 255, 255, 0.459);
+
+}
+.ic{
+    opacity: 0.3;
+}
+.ic:hover{
+    opacity: 0.7;
+}
 
 
 

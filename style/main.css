@@ -127,8 +127,20 @@ header nav a:hover{
  display: flex;
     
 }
+.next{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.botao.avancar{
 
- /* //////////////////////////////// */
+    margin:0;
+    position: absolute;
+    margin-top:-450px;
+
+    
+}
+
 
 
 

@@ -109,6 +109,7 @@ header nav a:hover{
 
 .box-filme{
     height:100%;
+ width:100%;
     display: block;
     cursor: pointer;
     margin-top:5px;
@@ -127,6 +128,7 @@ header nav a:hover{
 
 .carrosel-filmes{
  display: flex;
+
     
 }
 .botoes-nav{
@@ -173,7 +175,14 @@ header nav a:hover{
 
 
 
-
+footer{
+    display: flex;
+	bottom: 0;
+	padding-bottom: 0px;
+    align-items: center;
+    justify-content:center;
+    font-family:'Times New Roman', Times, serif
+}
 
 
 
